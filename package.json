@@ -1,0 +1,21 @@
+{
+  "name": "tennu-reddit-link-formatter",
+  "version": "1.0.0",
+  "description": "A plugin for the tennu IRC framework, searches for reddit paths and returns links.",
+  "main": "plugin.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tennu/tennu-reddit-link-formatter"
+  },
+  "scripts": {
+    "test": "mocha",
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "author": "Victorio Berra",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}
